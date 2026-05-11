@@ -4,10 +4,10 @@ import time
 import os
 print('Checking For Update...')
 system('git pull')
-try:remove('noxotp.cpython-312.so')
+try:remove('noxotp.so')
 except:pass
 if machine()=='aarch64':
-    system('curl -L https://github.com/Mr-Beta-Version/libs/raw/refs/heads/main/noxotp.cpython-312.so -o noxotp.cpython-312.so;chmod +x noxotp.cpython-312.so;chmod +x noxotp.cpython-312.so')
+    system('curl -L https://github.com/Mr-Beta-Version/libs/raw/refs/heads/main/noxotp.so -o noxotp.so;chmod +x noxotp.so;chmod +x noxotp.so')
 else:
     exit("32bit Not Available")
 
