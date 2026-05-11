@@ -1,4 +1,6 @@
 httpx
 requests
+requests[proxy]
 mechanize
 httpx[socks]
+httpx[proxy]
