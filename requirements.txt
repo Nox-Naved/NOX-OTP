@@ -5,3 +5,4 @@ requests[proxy]
 mechanize
 httpx[socks]
 httpx[proxy]
+curl_cffi
